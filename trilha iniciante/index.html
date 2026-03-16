@@ -55,6 +55,7 @@
             const response = await fetch(app.transcriptionURL)
             return response.text()
         },
+        
         getViralMoment: async () => {
             const transcription = await app.getTranscription()
             const model = 'gemini-3-flash-preview'
