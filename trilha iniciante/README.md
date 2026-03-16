@@ -55,7 +55,19 @@ The project teaches how JavaScript can interact with HTML elements, handle async
 
 
 
+
+
+
+
+
+
 https://github.com/user-attachments/assets/59261fb9-f919-4a43-8d7b-72af4beed880
+
+
+
+
+
+
 
 
 
