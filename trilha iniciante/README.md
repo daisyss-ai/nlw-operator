@@ -105,6 +105,33 @@ Through building ClipMaker, I'm learning:
 - Integration of multiple services
 - Building user-friendly interfaces
 
+## Known Issues & Challenges
+
+### Transcript Generation Feature 🚧
+I'm currently struggling with the transcript generation feature. The main challenges include:
+
+- **Transcription Delay:** The `waitForTranscription()` method polls Cloudinary for transcription completion, but there's uncertainty about:
+  - Correct polling intervals and maximum retry attempts
+  - Whether the transcription URL is being generated properly
+  - How long Cloudinary actually takes to process transcriptions
+
+- **Missing Implementation Details:**
+  - Empty prompt in `getViralMoment()` - need to define what specific insights to extract from transcriptions
+  - Uncertain about the exact API response format from Cloudinary transcription service
+  - Need to validate if the `transcriptionURL` is being set correctly after video upload
+
+- **Integration Gaps:**
+  - The flow between upload → transcription → Gemini analysis is not fully tested end-to-end
+  - Need to handle edge cases when transcription fails or takes too long
+  - Error handling for failed API requests needs improvement
+
+### Next Steps to Resolve
+1. Test the upload flow with a real video to debug transcription retrieval
+2. Log and verify the transcription URL structure from Cloudinary responses
+3. Define clear prompts for Gemini to analyze transcriptions
+4. Implement better error messages and user feedback during processing
+5. Add timeout and retry mechanisms with better logging
+
 ---
 
 **Instructor:** Mayk Brito  
