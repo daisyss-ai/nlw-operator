@@ -51,7 +51,13 @@ The project teaches how JavaScript can interact with HTML elements, handle async
    - `getTranscription()` - Retrieves the transcription
    - `getViralMoment()` - Uses Gemini API to analyze transcription and find viral moments  
 ✅ Implemented upload event handling  
-✅ Set up the basic JavaScript architecture for async operations  
+✅ Set up the basic JavaScript architecture for async operations
+
+
+
+https://github.com/user-attachments/assets/59261fb9-f919-4a43-8d7b-72af4beed880
+
+
 
 ### In Progress / To Do
 - [ ] Build the UI to display video information after upload
@@ -66,12 +72,12 @@ The project teaches how JavaScript can interact with HTML elements, handle async
 
 ```
 nlw/
-├── README.md
-├── trilha fullstack/          # Full-stack track materials
-├── trilha iniciante/          # Beginner track materials
+├── trilha fullstack/         # Full-stack track materials
+├── trilha iniciante/         # Beginner track materials
 │   ├── index.html            # Main application file
 │   ├── main.css              # Styling
-│   └── main.js               # JavaScript logic
+|   ├── main.js               # JavaScript logic
+│   └── README.md
 ```
 
 ## Getting Started
