@@ -66,12 +66,12 @@ The project teaches how JavaScript can interact with HTML elements, handle async
 
 ```
 nlw/
-├── README.md
-├── trilha fullstack/          # Full-stack track materials
-├── trilha iniciante/          # Beginner track materials
+├── trilha fullstack/         # Full-stack track materials
+├── trilha iniciante/         # Beginner track materials
 │   ├── index.html            # Main application file
 │   ├── main.css              # Styling
-│   └── main.js               # JavaScript logic
+|   ├── main.js               # JavaScript logic
+│   └── README.md
 ```
 
 ## Getting Started
